@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Unpurple",
+  "description": "Unpurple those visited links",
+  "version": "1.0",
+
+  "background": {
+    "scripts": ["/app/background.js"]
+  },
+
+  "icons": {
+    "16": "/app/icon.png"
+  },
+
+  "permissions": [
+    "history",
+    "contextMenus"
+   ]
+}
